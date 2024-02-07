@@ -11,7 +11,18 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-/* 
+
+.filter {
+  display: flex;
+  justify-content: center;
+}
+
+.filter > button {
+  background-color: #62807e;
+}
+
+
+
 
 body {
   font-family: sans-serif;
@@ -140,4 +151,4 @@ header {
 .tasks > li > button {
   justify-self: flex-end;
   background-color: #ff3046;
-} */
+} 
